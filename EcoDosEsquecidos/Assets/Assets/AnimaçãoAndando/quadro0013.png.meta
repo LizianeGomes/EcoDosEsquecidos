@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f92542868be31174490dda539a123419
+guid: ffa29c8ce5485d74ea34584a69b7825e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9199524785791435183
-    second: quadro0011_0
+      213: -9087525962574619713
+    second: quadro0013_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 300
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -126,13 +126,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: quadro0011_0
+      name: quadro0013_0
       rect:
         serializedVersion: 2
-        x: 414
-        y: 63
-        width: 442
-        height: 1426
+        x: 415
+        y: 65
+        width: 441
+        height: 1424
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,8 +141,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fa1008f2d074baf70800000000000000
-      internalID: 9199524785791435183
+      spriteID: fbb9999e84f92e180800000000000000
+      internalID: -9087525962574619713
       vertices: []
       indices: 
       edges: []
@@ -160,7 +160,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      quadro0013_0: -9087525962574619713
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
