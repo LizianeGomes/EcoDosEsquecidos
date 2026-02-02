@@ -4,6 +4,15 @@ using TMPro;
 public class Chave : MonoBehaviour
 {
     public TMP_Text textoNome;
+    public float distanciaParaPegar = 1.2f;
+
+    private Transform player;
+
+    void Start()
+    {
+        textoNome.text = "";
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+    }
 
     void OnMouseEnter()
     {
@@ -12,14 +21,24 @@ public class Chave : MonoBehaviour
 
     void OnMouseExit()
     {
-        textoNome.text = "";
+        // Só apaga se for a própria chave
+        if (textoNome.text == "Chave")
+            textoNome.text = "";
     }
 
     void OnMouseDown()
     {
-        Inventario.temChave = true;
-        textoNome.text = "";
-        Destroy(gameObject);
+        float distancia = Vector2.Distance(transform.position, player.position);
+
+        if (distancia <= distanciaParaPegar)
+        {
+            Inventario.temChave = true;
+
+            // Só apaga se for a própria chave
+            if (textoNome.text == "Chave")
+                textoNome.text = "";
+
+            Destroy(gameObject);
+        }
     }
 }
-
