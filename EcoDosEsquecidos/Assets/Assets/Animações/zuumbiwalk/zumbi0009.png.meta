@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 0063c6793da48224883387d3a171e747
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 680239672262559083
+    second: zumbi0009_0
+  - first:
+      213: 5163500241559047393
+    second: zumbi0009_1
+  - first:
+      213: 7371811357394179775
+    second: zumbi0009_2
+  - first:
+      213: -273170015619062502
+    second: zumbi0009_3
+  - first:
+      213: 7558009795491634041
+    second: zumbi0009_4
+  - first:
+      213: -6281217691745292622
+    second: zumbi0009_5
+  - first:
+      213: 4178075101458273039
+    second: zumbi0009_6
+  - first:
+      213: 5227623498282589878
+    second: zumbi0009_7
+  - first:
+      213: 1517416125141989370
+    second: zumbi0009_8
+  - first:
+      213: 8996997222683402676
+    second: zumbi0009_9
+  - first:
+      213: -346283084388338823
+    second: zumbi0009_10
+  - first:
+      213: -4482074452992185807
+    second: zumbi0009_11
+  - first:
+      213: 8515983931465057883
+    second: zumbi0009_12
+  - first:
+      213: 7265425454004291929
+    second: zumbi0009_13
+  - first:
+      213: 3537882907461156396
+    second: zumbi0009_14
+  - first:
+      213: -1266742923774238296
+    second: zumbi0009_15
+  - first:
+      213: -3718804522218706174
+    second: zumbi0009_16
+  - first:
+      213: -326111454232691035
+    second: zumbi0009_17
+  - first:
+      213: -5609934782895121368
+    second: zumbi0009_18
+  - first:
+      213: 5134203221601519747
+    second: zumbi0009_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 150
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zumbi0009_0
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1749
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b65865bb062b07900800000000000000
+      internalID: 680239672262559083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_1
+      rect:
+        serializedVersion: 2
+        x: 2840
+        y: 1641
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ec45cfbc1078a740800000000000000
+      internalID: 5163500241559047393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_2
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 905
+        width: 364
+        height: 715
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb69bac3f5fed4660800000000000000
+      internalID: 7371811357394179775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_3
+      rect:
+        serializedVersion: 2
+        x: 2127
+        y: 1604
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15ecbf6151853cf0800000000000000
+      internalID: -273170015619062502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_4
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1425
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b933d6dd173e860800000000000000
+      internalID: 7558009795491634041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_5
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 1408
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be6f96e9c1a4d8a0800000000000000
+      internalID: -6281217691745292622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_6
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1403
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03135b1b218bf930800000000000000
+      internalID: 4178075101458273039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_7
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1385
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be5e92efdf3c8840800000000000000
+      internalID: 5227623498282589878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_8
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1364
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7b98b1de1fe0510800000000000000
+      internalID: 1517416125141989370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_9
+      rect:
+        serializedVersion: 2
+        x: 1943
+        y: 1365
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b1683f4e41cbdc70800000000000000
+      internalID: 8996997222683402676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_10
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 1358
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9737e439e51c13bf0800000000000000
+      internalID: -346283084388338823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_11
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1366
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a2c8438097cc1c0800000000000000
+      internalID: -4482074452992185807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_12
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 1335
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b56c8eb144ade2670800000000000000
+      internalID: 8515983931465057883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_13
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1244
+        width: 196
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 959c100e4f9f3d460800000000000000
+      internalID: 7265425454004291929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_14
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1324
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ef52482c5191130800000000000000
+      internalID: 3537882907461156396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_15
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 1304
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a162b6b500ab6ee0800000000000000
+      internalID: -1266742923774238296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_16
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1295
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ba9087df6246cc0800000000000000
+      internalID: -3718804522218706174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_17
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 1148
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae36453c5b697bf0800000000000000
+      internalID: -326111454232691035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_18
+      rect:
+        serializedVersion: 2
+        x: 1926
+        y: 1043
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c9d64a9028522b0800000000000000
+      internalID: -5609934782895121368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zumbi0009_19
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 978
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 388893cb0aa504740800000000000000
+      internalID: 5134203221601519747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      zumbi0009_0: 680239672262559083
+      zumbi0009_1: 5163500241559047393
+      zumbi0009_10: -346283084388338823
+      zumbi0009_11: -4482074452992185807
+      zumbi0009_12: 8515983931465057883
+      zumbi0009_13: 7265425454004291929
+      zumbi0009_14: 3537882907461156396
+      zumbi0009_15: -1266742923774238296
+      zumbi0009_16: -3718804522218706174
+      zumbi0009_17: -326111454232691035
+      zumbi0009_18: -5609934782895121368
+      zumbi0009_19: 5134203221601519747
+      zumbi0009_2: 7371811357394179775
+      zumbi0009_3: -273170015619062502
+      zumbi0009_4: 7558009795491634041
+      zumbi0009_5: -6281217691745292622
+      zumbi0009_6: 4178075101458273039
+      zumbi0009_7: 5227623498282589878
+      zumbi0009_8: 1517416125141989370
+      zumbi0009_9: 8996997222683402676
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
