@@ -1,39 +1,54 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
-using System.Collections;
 
 public class Porta : MonoBehaviour
 {
-    public string cenaDestino;
-    public TMP_Text textoMensagem;
+    public TMP_Text textoNome;
+    public string proximaCena;
+    public AudioSource somPorta;
+    public float distanciaParaAbrir = 1.2f;
 
-    private bool podeTrocar = true;
+    Transform player;
+    bool abriu = false;
 
-    void OnTriggerEnter2D(Collider2D other)
+    void Start()
     {
-        if (!other.CompareTag("Player") || !podeTrocar)
-            return;
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        textoNome.text = "";
+    }
 
+    void OnMouseEnter()
+    {
         if (Inventario.temChave)
-        {
-            FadeManager.instance.TrocarCenaComFade(cenaDestino);
-        }
+            textoNome.text = "";
         else
+            textoNome.text = "Trancada";
+    }
+
+    void OnMouseExit()
+    {
+        textoNome.text = "";
+    }
+
+    void Update()
+    {
+        if (abriu) return;
+        if (!Inventario.temChave) return;
+
+        float distancia = Vector2.Distance(transform.position, player.position);
+
+        if (distancia <= distanciaParaAbrir)
         {
-            StartCoroutine(MostrarMensagem());
+            abriu = true;
+            textoNome.text = "";
+            somPorta.Play();
+            Invoke("TrocarCena", 0.6f);
         }
     }
 
-    IEnumerator MostrarMensagem()
+    void TrocarCena()
     {
-        podeTrocar = false;
-
-        textoMensagem.text = "Porta trancada";
-
-        yield return new WaitForSeconds(2f);
-
-        textoMensagem.text = "";
-        podeTrocar = true;
+        SceneManager.LoadScene(proximaCena);
     }
 }

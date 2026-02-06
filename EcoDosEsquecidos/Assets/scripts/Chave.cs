@@ -4,14 +4,16 @@ using TMPro;
 public class Chave : MonoBehaviour
 {
     public TMP_Text textoNome;
-    public float distanciaParaPegar = 1.2f;
+    public float distanciaParaPegar = 3f;
 
     private Transform player;
+    private AudioSource audioSource;
 
     void Start()
     {
         textoNome.text = "";
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        audioSource = GetComponent<AudioSource>();
     }
 
     void OnMouseEnter()
@@ -21,9 +23,7 @@ public class Chave : MonoBehaviour
 
     void OnMouseExit()
     {
-        // Só apaga se for a própria chave
-        if (textoNome.text == "Chave")
-            textoNome.text = "";
+        textoNome.text = "";
     }
 
     void OnMouseDown()
@@ -33,12 +33,11 @@ public class Chave : MonoBehaviour
         if (distancia <= distanciaParaPegar)
         {
             Inventario.temChave = true;
+            textoNome.text = "";
 
-            // Só apaga se for a própria chave
-            if (textoNome.text == "Chave")
-                textoNome.text = "";
+            audioSource.Play();
 
-            Destroy(gameObject);
+            Destroy(gameObject, 0.3f);
         }
     }
 }
