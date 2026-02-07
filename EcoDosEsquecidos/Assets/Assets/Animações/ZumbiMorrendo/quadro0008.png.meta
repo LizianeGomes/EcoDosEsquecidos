@@ -1,70 +1,58 @@
 fileFormatVersion: 2
-guid: 3905b7539368fb347b11589a81814c8c
+guid: 527f09080f211874f9cddecfd11d6873
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1451911539388123348
-    second: quadro0009_0
+      213: -5883947534341912559
+    second: quadro0008_0
   - first:
-      213: -951852920346180219
-    second: quadro0009_1
+      213: 8715499522532809158
+    second: quadro0008_1
   - first:
-      213: -7142942026471734884
-    second: quadro0009_2
+      213: 7258350349655412962
+    second: quadro0008_2
   - first:
-      213: -7322707300164299251
-    second: quadro0009_3
+      213: 3882048399008778472
+    second: quadro0008_3
   - first:
-      213: -6335981488783065807
-    second: quadro0009_4
+      213: -223183102252886307
+    second: quadro0008_4
   - first:
-      213: 4627861372518809050
-    second: quadro0009_5
+      213: 1477372403807158843
+    second: quadro0008_5
   - first:
-      213: 1984572488284504847
-    second: quadro0009_6
+      213: 5278055289457137223
+    second: quadro0008_6
   - first:
-      213: -7256586826852576854
-    second: quadro0009_7
+      213: -8558711936772400232
+    second: quadro0008_7
   - first:
-      213: -1707644775260376193
-    second: quadro0009_8
+      213: -4589844277107422068
+    second: quadro0008_8
   - first:
-      213: 7173126053390283467
-    second: quadro0009_9
+      213: 2371192159554656236
+    second: quadro0008_9
   - first:
-      213: -6954646580530583559
-    second: quadro0009_10
+      213: 6652950281087360417
+    second: quadro0008_10
   - first:
-      213: -1477091523842233750
-    second: quadro0009_11
+      213: 3158078026646053314
+    second: quadro0008_11
   - first:
-      213: -1785763592315955662
-    second: quadro0009_12
+      213: 3402342202510147180
+    second: quadro0008_12
   - first:
-      213: -8051222132633376727
-    second: quadro0009_13
+      213: -1225949305938704599
+    second: quadro0008_13
   - first:
-      213: 7598299105392917449
-    second: quadro0009_14
+      213: 8967114423898765271
+    second: quadro0008_14
   - first:
-      213: 6363901454060056659
-    second: quadro0009_15
+      213: 407279013099621856
+    second: quadro0008_15
   - first:
-      213: -2079144959981167825
-    second: quadro0009_16
-  - first:
-      213: -5806119437440127136
-    second: quadro0009_17
-  - first:
-      213: -8340803359018155798
-    second: quadro0009_18
-  - first:
-      213: -5634306099652094270
-    second: quadro0009_19
-  - first:
-      213: -5559992472437703969
-    second: quadro0009_20
+      213: 4188259202781146173
+    second: quadro0008_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -160,78 +148,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: quadro0009_0
+      name: quadro0008_0
       rect:
         serializedVersion: 2
-        x: 1374
-        y: 1749
-        width: 8
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4d8058e3ad9362410800000000000000
-      internalID: 1451911539388123348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_1
-      rect:
-        serializedVersion: 2
-        x: 2840
-        y: 1641
-        width: 8
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5850954efc65ac2f0800000000000000
-      internalID: -951852920346180219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_2
-      rect:
-        serializedVersion: 2
-        x: 1618
-        y: 905
-        width: 332
-        height: 715
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c9181f4621c2fdc90800000000000000
-      internalID: -7142942026471734884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_3
-      rect:
-        serializedVersion: 2
-        x: 2127
+        x: 1868
         y: 1604
-        width: 6
+        width: 8
         height: 11
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -241,18 +163,84 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d061c830284806a90800000000000000
-      internalID: -7322707300164299251
+      spriteID: 118c38a54e4085ea0800000000000000
+      internalID: -5883947534341912559
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quadro0009_4
+      name: quadro0008_1
       rect:
         serializedVersion: 2
-        x: 2060
-        y: 1531
+        x: 1499
+        y: 793
+        width: 796
+        height: 483
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c997a893aca3f870800000000000000
+      internalID: 8715499522532809158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quadro0008_2
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 1108
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e01b86cf27dab460800000000000000
+      internalID: 7258350349655412962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quadro0008_3
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 1041
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8cacf637ecfd530800000000000000
+      internalID: 3882048399008778472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quadro0008_4
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 918
         width: 6
         height: 6
       alignment: 0
@@ -263,18 +251,106 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 13d72a9c7621218a0800000000000000
-      internalID: -6335981488783065807
+      spriteID: dd6d856a62817ecf0800000000000000
+      internalID: -223183102252886307
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quadro0009_5
+      name: quadro0008_5
       rect:
         serializedVersion: 2
-        x: 2063
-        y: 1522
+        x: 1490
+        y: 910
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3204e1bf5ea08410800000000000000
+      internalID: 1477372403807158843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quadro0008_6
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 839
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 746d6f8425b6f3940800000000000000
+      internalID: 5278055289457137223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quadro0008_7
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 822
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b19c9e6d8593980800000000000000
+      internalID: -8558711936772400232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quadro0008_8
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 825
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8c07a0b2f89d40c0800000000000000
+      internalID: -4589844277107422068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quadro0008_9
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 799
         width: 7
         height: 8
       alignment: 0
@@ -285,18 +361,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: add3cba1667793040800000000000000
-      internalID: 4627861372518809050
+      spriteID: ce7527cb4ba28e020800000000000000
+      internalID: 2371192159554656236
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quadro0009_6
+      name: quadro0008_10
       rect:
         serializedVersion: 2
-        x: 1948
-        y: 1482
+        x: 1801
+        y: 700
+        width: 28
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad1c842807045c50800000000000000
+      internalID: 6652950281087360417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quadro0008_11
+      rect:
+        serializedVersion: 2
+        x: 2015
+        y: 691
         width: 8
         height: 9
       alignment: 0
@@ -307,217 +405,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f030633d92e9a8b10800000000000000
-      internalID: 1984572488284504847
+      spriteID: 2c16437ab3fb3db20800000000000000
+      internalID: 3158078026646053314
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quadro0009_7
+      name: quadro0008_12
       rect:
         serializedVersion: 2
-        x: 1963
-        y: 1469
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa15caf5abc6b4b90800000000000000
-      internalID: -7256586826852576854
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_8
-      rect:
-        serializedVersion: 2
-        x: 2143
-        y: 1460
-        width: 6
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f73bd08df1a3d48e0800000000000000
-      internalID: -1707644775260376193
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_9
-      rect:
-        serializedVersion: 2
-        x: 2152
-        y: 1459
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: bc27d6504201c8360800000000000000
-      internalID: 7173126053390283467
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_10
-      rect:
-        serializedVersion: 2
-        x: 2115
-        y: 1399
-        width: 8
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f7e61548c12c7f90800000000000000
-      internalID: -6954646580530583559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_11
-      rect:
-        serializedVersion: 2
-        x: 1945
-        y: 1358
-        width: 11
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a6aa4a4c511508be0800000000000000
-      internalID: -1477091523842233750
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_12
-      rect:
-        serializedVersion: 2
-        x: 1962
-        y: 1366
-        width: 8
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2369e236971b737e0800000000000000
-      internalID: -1785763592315955662
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_13
-      rect:
-        serializedVersion: 2
-        x: 1948
-        y: 1335
+        x: 1667
+        y: 672
         width: 7
-        height: 8
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 928ef98a020544090800000000000000
-      internalID: -8051222132633376727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_14
-      rect:
-        serializedVersion: 2
-        x: 2141
-        y: 1319
-        width: 58
-        height: 36
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9cbfc1267c4927960800000000000000
-      internalID: 7598299105392917449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_15
-      rect:
-        serializedVersion: 2
-        x: 2003
-        y: 1209
-        width: 103
-        height: 43
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 35077d2b7ae115850800000000000000
-      internalID: 6363901454060056659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_16
-      rect:
-        serializedVersion: 2
-        x: 1950
-        y: 1148
-        width: 8
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -527,18 +427,18 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f2b57c7bca46523e0800000000000000
-      internalID: -2079144959981167825
+      spriteID: c6effe0f43c873f20800000000000000
+      internalID: 3402342202510147180
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quadro0009_17
+      name: quadro0008_13
       rect:
         serializedVersion: 2
-        x: 2202
-        y: 1136
+        x: 1990
+        y: 677
         width: 9
         height: 9
       alignment: 0
@@ -549,42 +449,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 06fe3ef32258c6fa0800000000000000
-      internalID: -5806119437440127136
+      spriteID: 92703e20a9d8cfee0800000000000000
+      internalID: -1225949305938704599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quadro0009_18
+      name: quadro0008_14
       rect:
         serializedVersion: 2
-        x: 2139
-        y: 1077
-        width: 14
-        height: 11
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae0865459838f3c80800000000000000
-      internalID: -8340803359018155798
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: quadro0009_19
-      rect:
-        serializedVersion: 2
-        x: 2081
-        y: 1028
+        x: 1672
+        y: 664
         width: 6
-        height: 9
+        height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,20 +471,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2c69b66447ceec1b0800000000000000
-      internalID: -5634306099652094270
+      spriteID: 7d774c80f07917c70800000000000000
+      internalID: 8967114423898765271
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: quadro0009_20
+      name: quadro0008_15
       rect:
         serializedVersion: 2
-        x: 2070
-        y: 1010
-        width: 8
-        height: 10
+        x: 1690
+        y: 649
+        width: 11
+        height: 14
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,8 +493,30 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fda318eed40f6d2b0800000000000000
-      internalID: -5559992472437703969
+      spriteID: 0ed4644ca12f6a500800000000000000
+      internalID: 407279013099621856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: quadro0008_16
+      rect:
+        serializedVersion: 2
+        x: 2983
+        y: 648
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ce709fd8faf1a30800000000000000
+      internalID: 4188259202781146173
       vertices: []
       indices: 
       edges: []
@@ -635,27 +535,23 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      quadro0009_0: 1451911539388123348
-      quadro0009_1: -951852920346180219
-      quadro0009_10: -6954646580530583559
-      quadro0009_11: -1477091523842233750
-      quadro0009_12: -1785763592315955662
-      quadro0009_13: -8051222132633376727
-      quadro0009_14: 7598299105392917449
-      quadro0009_15: 6363901454060056659
-      quadro0009_16: -2079144959981167825
-      quadro0009_17: -5806119437440127136
-      quadro0009_18: -8340803359018155798
-      quadro0009_19: -5634306099652094270
-      quadro0009_2: -7142942026471734884
-      quadro0009_20: -5559992472437703969
-      quadro0009_3: -7322707300164299251
-      quadro0009_4: -6335981488783065807
-      quadro0009_5: 4627861372518809050
-      quadro0009_6: 1984572488284504847
-      quadro0009_7: -7256586826852576854
-      quadro0009_8: -1707644775260376193
-      quadro0009_9: 7173126053390283467
+      quadro0008_0: -5883947534341912559
+      quadro0008_1: 8715499522532809158
+      quadro0008_10: 6652950281087360417
+      quadro0008_11: 3158078026646053314
+      quadro0008_12: 3402342202510147180
+      quadro0008_13: -1225949305938704599
+      quadro0008_14: 8967114423898765271
+      quadro0008_15: 407279013099621856
+      quadro0008_16: 4188259202781146173
+      quadro0008_2: 7258350349655412962
+      quadro0008_3: 3882048399008778472
+      quadro0008_4: -223183102252886307
+      quadro0008_5: 1477372403807158843
+      quadro0008_6: 5278055289457137223
+      quadro0008_7: -8558711936772400232
+      quadro0008_8: -4589844277107422068
+      quadro0008_9: 2371192159554656236
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -2,55 +2,52 @@ using UnityEngine;
 
 public class AtaquePlayer : MonoBehaviour
 {
-    public Transform pontoAtaque;
-    public float alcanceAtaque = 0.8f;
+    public int dano = 10;
+    public float alcance = 5f;
     public LayerMask camadaInimigo;
 
-    public int dano = 1;
-    public float tempoEntreAtaques = 0.6f;
-
-    private float proximoAtaque;
-    private Animator animator;
+    private Animator anim;
+    private SpriteRenderer sr;
 
     void Start()
     {
-        animator = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
+        sr = GetComponent<SpriteRenderer>();
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Z) && Time.time >= proximoAtaque)
+        if (Input.GetKeyDown(KeyCode.Z))
         {
             Atacar();
-            proximoAtaque = Time.time + tempoEntreAtaques;
         }
     }
 
     void Atacar()
     {
-        animator.SetTrigger("atacar");
+        anim.SetTrigger("Attack");
 
-        Collider2D[] inimigos = Physics2D.OverlapCircleAll(
-            pontoAtaque.position,
-            alcanceAtaque,
+        Vector2 origem = transform.position;
+        Vector2 direcao = sr.flipX ? Vector2.left : Vector2.right;
+
+        RaycastHit2D hit = Physics2D.Raycast(
+            origem,
+            direcao,
+            alcance,
             camadaInimigo
         );
 
-        foreach (Collider2D inimigo in inimigos)
+        if (hit.collider != null)
         {
-            VidaZumbi vida = inimigo.GetComponent<VidaZumbi>();
+            VidaZumbi vida = hit.collider.GetComponent<VidaZumbi>();
 
             if (vida != null)
             {
                 vida.TomarDano(dano);
             }
         }
-    }
+        Debug.DrawRay(origem, direcao * alcance, Color.red, 0.2f);
 
-    void OnDrawGizmosSelected()
-    {
-        if (pontoAtaque == null) return;
-
-        Gizmos.DrawWireSphere(pontoAtaque.position, alcanceAtaque);
     }
+    
 }

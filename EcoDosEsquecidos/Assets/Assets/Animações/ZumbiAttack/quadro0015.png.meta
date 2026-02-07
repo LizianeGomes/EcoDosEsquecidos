@@ -105,7 +105,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 150
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -584,7 +584,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      quadro0015_0: -8580833948781302114
+      quadro0015_1: -740290865386704505
+      quadro0015_10: -5864763592146670418
+      quadro0015_11: -2409642965735540682
+      quadro0015_12: -4819120844840505389
+      quadro0015_13: -968825050672592315
+      quadro0015_14: 8497582869652972024
+      quadro0015_15: -2056639717044346076
+      quadro0015_16: -8143151597140896372
+      quadro0015_17: -821119972006486713
+      quadro0015_18: -8839877976738929800
+      quadro0015_2: 4242993640620789380
+      quadro0015_3: -4266579674627037919
+      quadro0015_4: 8430798571519212854
+      quadro0015_5: 4241932112507552982
+      quadro0015_6: -3842341595907527931
+      quadro0015_7: -5927527453538968538
+      quadro0015_8: 7838454043245619881
+      quadro0015_9: -6365020837642403014
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
