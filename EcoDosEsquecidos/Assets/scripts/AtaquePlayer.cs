@@ -3,7 +3,7 @@ using UnityEngine;
 public class AtaquePlayer : MonoBehaviour
 {
     public int dano = 10;
-    public float alcance = 5f;
+    public float alcance = 1.5f;
     public LayerMask camadaInimigo;
 
     private Animator anim;
@@ -27,8 +27,8 @@ public class AtaquePlayer : MonoBehaviour
     {
         anim.SetTrigger("Attack");
 
-        Vector2 origem = transform.position;
         Vector2 direcao = sr.flipX ? Vector2.left : Vector2.right;
+        Vector2 origem = (Vector2)transform.position + direcao * 0.5f;
 
         RaycastHit2D hit = Physics2D.Raycast(
             origem,
@@ -37,17 +37,21 @@ public class AtaquePlayer : MonoBehaviour
             camadaInimigo
         );
 
+        Debug.DrawRay(origem, direcao * alcance, Color.red, 0.3f);
+
         if (hit.collider != null)
         {
-            VidaZumbi vida = hit.collider.GetComponent<VidaZumbi>();
+            Debug.Log("Acertou: " + hit.collider.name);
 
+            VidaZumbi vida = hit.collider.GetComponent<VidaZumbi>();
             if (vida != null)
             {
                 vida.TomarDano(dano);
             }
         }
-        Debug.DrawRay(origem, direcao * alcance, Color.red, 0.2f);
-
+        else
+        {
+            Debug.Log("Ataque não acertou ninguém");
+        }
     }
-    
 }

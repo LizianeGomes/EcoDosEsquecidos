@@ -8,7 +8,7 @@ public class ZumbiIA : MonoBehaviour
 
     private Animator anim;
     private bool atacando = false;
-
+    private Rigidbody2D rb;
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -44,5 +44,8 @@ public class ZumbiIA : MonoBehaviour
             transform.localScale = new Vector3(1, 1, 1);
         else
             transform.localScale = new Vector3(-1, 1, 1);
+rb.linearVelocity = Vector2.zero;
+rb.constraints = RigidbodyConstraints2D.FreezePositionY | RigidbodyConstraints2D.FreezeRotation;
+
     }
 }

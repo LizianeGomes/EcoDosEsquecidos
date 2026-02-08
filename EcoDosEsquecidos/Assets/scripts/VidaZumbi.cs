@@ -22,13 +22,13 @@ public class VidaZumbi : MonoBehaviour
 
         if (vida <= 0)
         {
-            Morrer();
+            morrendo();
         }
     }
 
-    void Morrer()
+    void morrendo()
     {
-        anim.SetBool("Morto", true);
+        anim.SetBool("morrendo", true);
 
         // desliga IA
         if (ia != null)
@@ -39,6 +39,7 @@ public class VidaZumbi : MonoBehaviour
 
         // destrói depois da animação
         Destroy(gameObject, 2f); // ajuste pro tempo da animação
+
     }
 }
 
