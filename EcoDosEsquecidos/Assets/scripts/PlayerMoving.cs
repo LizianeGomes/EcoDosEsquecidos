@@ -4,17 +4,18 @@ public class MovimentoPointClick : MonoBehaviour
 {
     public float velocidade = 5f;
     public float forcaPulo = 7f;
+
+    [Header("Chão")]
     public Transform checadorChao;
     public LayerMask layerChao;
 
     private Vector3 destino;
     private bool mover = false;
+    private bool noChao;
 
     private Animator animator;
     private SpriteRenderer spriteRenderer;
     private Rigidbody2D rb;
-
-    private bool noChao;
 
     void Start()
     {
@@ -25,11 +26,11 @@ public class MovimentoPointClick : MonoBehaviour
 
     void Update()
     {
-        // Checar chão
+        // ===== CHECAR CHÃO =====
         noChao = Physics2D.OverlapCircle(checadorChao.position, 0.1f, layerChao);
         animator.SetBool("noChao", noChao);
 
-        // Clique do mouse
+        // ===== CLIQUE DO MOUSE =====
         if (Input.GetMouseButtonDown(0))
         {
             Vector3 mousePos = Input.mousePosition;
@@ -39,11 +40,12 @@ public class MovimentoPointClick : MonoBehaviour
             destino = new Vector3(posicaoMundo.x, transform.position.y, transform.position.z);
             mover = true;
 
+            // Virar sprite
             spriteRenderer.flipX = destino.x < transform.position.x;
         }
 
-        // Movimento horizontal
-        if (mover && noChao)
+        // ===== MOVIMENTO =====
+        if (mover)
         {
             transform.position = Vector3.MoveTowards(
                 transform.position,
@@ -64,14 +66,14 @@ public class MovimentoPointClick : MonoBehaviour
             animator.SetBool("andando", false);
         }
 
-        // PULO
+        // ===== PULO =====
         if (Input.GetKeyDown(KeyCode.Space) && noChao)
         {
             rb.linearVelocity = new Vector2(rb.linearVelocity.x, forcaPulo);
             animator.SetBool("pulando", true);
         }
 
-        // Reset do pulo ao cair
+        // ===== RESET PULO =====
         if (noChao)
         {
             animator.SetBool("pulando", false);

@@ -2003,7 +2003,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fadeImage: {fileID: 1206719382}
-  velocidade: 1.5
+  velocidade: 3
 --- !u!4 &1833747796
 Transform:
   m_ObjectHideFlags: 0
@@ -2395,6 +2395,14 @@ PrefabInstance:
     - target: {fileID: 5111500784548683747, guid: e346a0ba161a52347a9c241c50c558fb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5967574581491107502, guid: e346a0ba161a52347a9c241c50c558fb, type: 3}
+      propertyPath: checadorChao
+      value: 
+      objectReference: {fileID: 175623949}
+    - target: {fileID: 5967574581491107502, guid: e346a0ba161a52347a9c241c50c558fb, type: 3}
+      propertyPath: layerChao.m_Bits
+      value: 128
       objectReference: {fileID: 0}
     - target: {fileID: 8766720207002193627, guid: e346a0ba161a52347a9c241c50c558fb, type: 3}
       propertyPath: m_Name

@@ -848,6 +848,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5967574581491107502, guid: e346a0ba161a52347a9c241c50c558fb, type: 3}
+      propertyPath: checadorChao
+      value: 
+      objectReference: {fileID: 541046581}
+    - target: {fileID: 5967574581491107502, guid: e346a0ba161a52347a9c241c50c558fb, type: 3}
+      propertyPath: layerChao.m_Bits
+      value: 128
+      objectReference: {fileID: 0}
     - target: {fileID: 7975771996395857612, guid: e346a0ba161a52347a9c241c50c558fb, type: 3}
       propertyPath: m_Resource
       value: 
