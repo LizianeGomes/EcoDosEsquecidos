@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "EcoDosEsquecidos.sln"
+    "dotnet.defaultSolution": "EcoDosEsquecidos.slnx"
 }
